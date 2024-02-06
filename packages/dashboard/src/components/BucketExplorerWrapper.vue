@@ -9,9 +9,6 @@
                       @click="changeToStorage">
                 Storage
               </button>
-              <button type="button" class="btn btn-app ms-2" :class="{'active': $store.state.activeTab === 'email'}"
-                      @click="changeToEmail">Email
-              </button>
             </div>
             <div class="m-1 m-sm-0">
               <folder-tree/>
